@@ -1,6 +1,5 @@
 
-
-```markdown
+markdown
 # 🌐 AetherNet – AI-Powered Personal Fitness Planner
 
 AetherNet is a smart, interactive **Streamlit** app designed to help users set and track their fitness goals using personalized AI insights. It uses **Langflow (Astra)** to generate dynamic answers and personalized macro recommendations based on user profiles. Data is stored securely using **Astra DB**.
@@ -139,5 +138,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 🔗 [GitHub](https://github.com/nyhereo-benzai1)
 🖤 Built with love, Streamlit, and Langflow
 
-```
 

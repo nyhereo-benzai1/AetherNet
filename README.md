@@ -9,11 +9,11 @@ AetherNet is a smart, interactive **Streamlit** app designed to help users set a
 
 | Personal Data | Goals Selection |
 |---------------|-----------------|
-| ![](ui-1.png.png) | ![](ui-2.png.png) |
+| ![](ui-1.png) | ![](ui-2.png) |
 
 | Macros Panel | Ask AI |
 |---------------|--------|
-| ![](ui-3.png.png) | ![](ui-4.png.png) |
+| ![](ui-3.png) | ![](ui-4.png) |
 
 ---
 

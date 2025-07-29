@@ -1,4 +1,6 @@
 
+
+```markdown
 # 🌐 AetherNet – AI-Powered Personal Fitness Planner
 
 AetherNet is a smart, interactive **Streamlit** app designed to help users set and track their fitness goals using personalized AI insights. It uses **Langflow (Astra)** to generate dynamic answers and personalized macro recommendations based on user profiles. Data is stored securely using **Astra DB**.
@@ -44,18 +46,18 @@ AetherNet is a smart, interactive **Streamlit** app designed to help users set a
 ```
 
 .
-├── ai.py                   # Langflow API calls (AskAIV2 & Macros)
-├── main.py                 # Streamlit app UI
-├── profiles.py             # Astra DB integration & profile handling
-├── form\_submit.py          # Update profile, notes, macros
-├── .env.example            # Example env for deployment
-├── requirements.txt        # Python dependencies
-├── ASKAIV22.json           # Langflow AskAI flow (export)
-├── macros.json             # Langflow Macros flow (export)
-├── ui-1.png.png            # UI Screenshots
-├── ui-2.png.png
-├── ui-3.png.png
-├── ui-4.png.png
+├── ai.py                 # Langflow API calls (AskAIV2 & Macros)
+├── main.py               # Streamlit app UI
+├── profiles.py           # Astra DB integration & profile handling
+├── form\_submit.py        # Update profile, notes, macros
+├── .env.example          # Example env for deployment
+├── requirements.txt      # Python dependencies
+├── ASKAIV22.json         # Langflow AskAI flow (export)
+├── macros.json           # Langflow Macros flow (export)
+├── ui-1.png              # UI Screenshots
+├── ui-2.png
+├── ui-3.png
+├── ui-4.png
 
 ````
 
@@ -77,7 +79,7 @@ AetherNet is a smart, interactive **Streamlit** app designed to help users set a
    cp .env.example .env
    ```
 
-   Add your:
+   Fill in your `.env` with:
 
    * `BASE_API_URL`
    * `LANGFLOW_ID`
@@ -105,15 +107,15 @@ AetherNet is a smart, interactive **Streamlit** app designed to help users set a
 
 ## ☁️ Deployment (Streamlit Cloud)
 
-1. Push this repo to GitHub (already done ✅).
+1. Push this repo to GitHub (✅ Done).
 2. Go to [streamlit.io/cloud](https://streamlit.io/cloud) and deploy from your repo.
-3. Add the same `.env` variables via **Secrets Manager**.
+3. Add environment secrets from your `.env` in **Streamlit Secrets Manager**.
 
 ---
 
 ## 🧪 Langflow Flows (Optional)
 
-You can import the included `.json` flows into your [Langflow](https://www.langflow.org/) dashboard if you'd like to tweak the logic:
+You can import the included `.json` flows into [Langflow](https://www.langflow.org/) if you want to customize the logic:
 
 * `ASKAIV22.json`
 * `macros.json`
@@ -129,14 +131,15 @@ Feel free to use, distribute, and modify it!
 
 ## 🙌 Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
 
 ---
 
 ## ✨ Author
 
 **Nyhereo (Payal)**
-→ [GitHub](https://github.com/nyhereo-benzai1)
-→ Made with 🖤 & Langflow
+🔗 [GitHub](https://github.com/nyhereo-benzai1)
+🖤 Built with love, Streamlit, and Langflow
 
+```
 

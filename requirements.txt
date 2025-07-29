@@ -1,0 +1,15 @@
+# Web app framework
+streamlit==1.33.0
+
+# Load environment variables from .env
+python-dotenv==1.0.1
+
+# For making HTTP requests to Langflow API
+requests==2.31.0
+
+# Astra DB integration for vector storage and retrieval
+astrapy==0.9.9
+
+# If you're parsing or processing JSON, etc.
+typing-extensions>=4.5.0
+
